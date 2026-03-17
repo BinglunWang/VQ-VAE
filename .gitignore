@@ -211,3 +211,5 @@ __marimo__/
 data/
 checkpoints/
 results/
+# Ignore the any folder have "results"
+results_*/
