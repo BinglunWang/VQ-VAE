@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ignore the data, checkpoints, and results directories
+data/
+checkpoints/
+results/
