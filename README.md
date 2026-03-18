@@ -36,7 +36,7 @@ The codebook is defined as $C = \{e_1, e_2, \dots, e_K\}$
 #### 4.2.2 EMA (Exponential Moving Average):
 * $m_i = \sum_{z_e \text{ snapped to } e_i} z_e$
 * $N_i^{(t)} = N_i^{(t-1)}\gamma + (1-\gamma)n_i$
-* *Where $n_i$ is the number of times codebook vector $e_i$ was chosen.*
+* Where $n_i$ is the number of times codebook vector $e_i$ was chosen.
 * $m_i^{(t)} = \gamma m_i^{(t-1)} + (1-\gamma)m_i$
 * $e_i^{(t)} = \frac{m_i^{(t)}}{N_i^{(t)}}$
 
